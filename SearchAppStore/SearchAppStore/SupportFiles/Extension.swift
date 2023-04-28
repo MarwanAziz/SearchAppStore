@@ -33,3 +33,7 @@ extension View {
         modifier(PreviewDeviceSupport(preview: preview))
     }
 }
+
+extension Color {
+    static let systemSecondary = Color("secondary")
+}

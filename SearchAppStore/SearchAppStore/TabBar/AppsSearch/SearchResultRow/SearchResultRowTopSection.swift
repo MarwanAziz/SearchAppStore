@@ -58,14 +58,13 @@ struct SearchResultRowTopSection: View {
         let buttonTitle = viewModel.favourited ? "REMOVE" : "SAVE"
         return Button(action: {
             viewModel.AddRemoveButtonTapped()
-            print("Button tapped: ", buttonTitle)
         }) {
             HStack {
                 Text(buttonTitle)
                     .fontWeight(.bold)
                     .font(.system(size: 11))
                     .frame(width: 70, height: 30, alignment: .center)
-                    .background(Color("secondary"))
+                    .background(Color.systemSecondary)
                     .foregroundColor(.accentColor)
                     .cornerRadius(15)
             }
