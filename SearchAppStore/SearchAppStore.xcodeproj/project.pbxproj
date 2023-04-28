@@ -8,17 +8,65 @@
 
 /* Begin PBXBuildFile section */
 		BADCCDDE29F80C6900091940 /* SearchAppStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCDDD29F80C6900091940 /* SearchAppStoreApp.swift */; };
-		BADCCDE029F80C6900091940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCDDF29F80C6900091940 /* ContentView.swift */; };
 		BADCCDE229F80C6B00091940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BADCCDE129F80C6B00091940 /* Assets.xcassets */; };
 		BADCCDE529F80C6B00091940 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BADCCDE429F80C6B00091940 /* Preview Assets.xcassets */; };
+		BADCCDEC29F80E6E00091940 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCDEB29F80E6E00091940 /* TabBarView.swift */; };
+		BADCCDEE29F80EEB00091940 /* TabBarViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCDED29F80EEB00091940 /* TabBarViewViewModel.swift */; };
+		BADCCDF029F80F8900091940 /* AppsSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCDEF29F80F8900091940 /* AppsSearchView.swift */; };
+		BADCCDF229F80FC500091940 /* FavouriteAppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCDF129F80FC500091940 /* FavouriteAppsView.swift */; };
+		BADCCDF729F81BB000091940 /* ApiConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCDF629F81BB000091940 /* ApiConnector.swift */; };
+		BADCCDF929F81BDD00091940 /* ApiConnectorImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCDF829F81BDD00091940 /* ApiConnectorImp.swift */; };
+		BADCCDFC29F81C5900091940 /* ApiConnectorDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCDFB29F81C5900091940 /* ApiConnectorDataModels.swift */; };
+		BADCCDFE29F8377E00091940 /* DataConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCDFD29F8377E00091940 /* DataConnector.swift */; };
+		BADCCE0029F8389000091940 /* DataConnectorImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCDFF29F8389000091940 /* DataConnectorImp.swift */; };
+		BADCCE0329F8397700091940 /* DataConnectorDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCE0229F8397700091940 /* DataConnectorDataModels.swift */; };
+		BADCCE0629F840C800091940 /* AppsSearchViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCE0529F840C800091940 /* AppsSearchViewViewModel.swift */; };
+		BADCCE0829F90BB700091940 /* AppInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = BADCCE0729F90BB700091940 /* AppInfo.json */; };
+		BADCCE0A29F9197400091940 /* SearchResultRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCE0929F9197400091940 /* SearchResultRowView.swift */; };
+		BADCCE0D29FA5E6800091940 /* SearchResultRowTopSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCE0C29FA5E6800091940 /* SearchResultRowTopSection.swift */; };
+		BADCCE0F29FA5EF200091940 /* SearchResultRowBottomSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCE0E29FA5EF200091940 /* SearchResultRowBottomSection.swift */; };
+		BADCCE1129FA609F00091940 /* SearchResultRowViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCE1029FA609F00091940 /* SearchResultRowViewViewModel.swift */; };
+		BADCCE1329FA76ED00091940 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCE1229FA76ED00091940 /* Extension.swift */; };
+		BADCCE1529FA868600091940 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCE1429FA868600091940 /* ViewModifiers.swift */; };
+		BADCCE1729FABB8300091940 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BADCCE1629FABB8300091940 /* Colors.xcassets */; };
+		BADCCE1929FADCD300091940 /* PersistentConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCE1829FADCD300091940 /* PersistentConnector.swift */; };
+		BADCCE1B29FADD7100091940 /* PersistentConnectorImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCE1A29FADD7100091940 /* PersistentConnectorImp.swift */; };
+		BADCCE2029FBC9B200091940 /* AppsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCE1F29FBC9B200091940 /* AppsListView.swift */; };
+		BADCCE2229FBCB4200091940 /* FavouriteAppsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCE2129FBCB4200091940 /* FavouriteAppsViewViewModel.swift */; };
+		BADCCE2529FBCB9800091940 /* AppInfoSupperViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCE2429FBCB9800091940 /* AppInfoSupperViewModel.swift */; };
+		BADCCE2829FBD8A300091940 /* SystemImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADCCE2729FBD8A300091940 /* SystemImages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BADCCDDA29F80C6900091940 /* SearchAppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchAppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADCCDDD29F80C6900091940 /* SearchAppStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAppStoreApp.swift; sourceTree = "<group>"; };
-		BADCCDDF29F80C6900091940 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BADCCDE129F80C6B00091940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BADCCDE429F80C6B00091940 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BADCCDEB29F80E6E00091940 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		BADCCDED29F80EEB00091940 /* TabBarViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewViewModel.swift; sourceTree = "<group>"; };
+		BADCCDEF29F80F8900091940 /* AppsSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsSearchView.swift; sourceTree = "<group>"; };
+		BADCCDF129F80FC500091940 /* FavouriteAppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteAppsView.swift; sourceTree = "<group>"; };
+		BADCCDF629F81BB000091940 /* ApiConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConnector.swift; sourceTree = "<group>"; };
+		BADCCDF829F81BDD00091940 /* ApiConnectorImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConnectorImp.swift; sourceTree = "<group>"; };
+		BADCCDFB29F81C5900091940 /* ApiConnectorDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConnectorDataModels.swift; sourceTree = "<group>"; };
+		BADCCDFD29F8377E00091940 /* DataConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConnector.swift; sourceTree = "<group>"; };
+		BADCCDFF29F8389000091940 /* DataConnectorImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConnectorImp.swift; sourceTree = "<group>"; };
+		BADCCE0229F8397700091940 /* DataConnectorDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConnectorDataModels.swift; sourceTree = "<group>"; };
+		BADCCE0529F840C800091940 /* AppsSearchViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsSearchViewViewModel.swift; sourceTree = "<group>"; };
+		BADCCE0729F90BB700091940 /* AppInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AppInfo.json; sourceTree = "<group>"; };
+		BADCCE0929F9197400091940 /* SearchResultRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultRowView.swift; sourceTree = "<group>"; };
+		BADCCE0C29FA5E6800091940 /* SearchResultRowTopSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultRowTopSection.swift; sourceTree = "<group>"; };
+		BADCCE0E29FA5EF200091940 /* SearchResultRowBottomSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultRowBottomSection.swift; sourceTree = "<group>"; };
+		BADCCE1029FA609F00091940 /* SearchResultRowViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultRowViewViewModel.swift; sourceTree = "<group>"; };
+		BADCCE1229FA76ED00091940 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		BADCCE1429FA868600091940 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		BADCCE1629FABB8300091940 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		BADCCE1829FADCD300091940 /* PersistentConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentConnector.swift; sourceTree = "<group>"; };
+		BADCCE1A29FADD7100091940 /* PersistentConnectorImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentConnectorImp.swift; sourceTree = "<group>"; };
+		BADCCE1F29FBC9B200091940 /* AppsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsListView.swift; sourceTree = "<group>"; };
+		BADCCE2129FBCB4200091940 /* FavouriteAppsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteAppsViewViewModel.swift; sourceTree = "<group>"; };
+		BADCCE2429FBCB9800091940 /* AppInfoSupperViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoSupperViewModel.swift; sourceTree = "<group>"; };
+		BADCCE2729FBD8A300091940 /* SystemImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemImages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +99,14 @@
 		BADCCDDC29F80C6900091940 /* SearchAppStore */ = {
 			isa = PBXGroup;
 			children = (
+				BADCCE2629FBD85500091940 /* SupportFiles */,
+				BADCCDF529F81B1300091940 /* PersistentStorage */,
+				BADCCDF429F81AFE00091940 /* ApiConnector */,
+				BADCCDF329F81AF100091940 /* DataConnecotr */,
+				BADCCE1C29FBC77900091940 /* TabBar */,
 				BADCCDDD29F80C6900091940 /* SearchAppStoreApp.swift */,
-				BADCCDDF29F80C6900091940 /* ContentView.swift */,
 				BADCCDE129F80C6B00091940 /* Assets.xcassets */,
+				BADCCE1629FABB8300091940 /* Colors.xcassets */,
 				BADCCDE329F80C6B00091940 /* Preview Content */,
 			);
 			path = SearchAppStore;
@@ -65,6 +118,121 @@
 				BADCCDE429F80C6B00091940 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BADCCDF329F81AF100091940 /* DataConnecotr */ = {
+			isa = PBXGroup;
+			children = (
+				BADCCE0129F8393E00091940 /* DataConnectorDataModels */,
+				BADCCDFD29F8377E00091940 /* DataConnector.swift */,
+				BADCCDFF29F8389000091940 /* DataConnectorImp.swift */,
+			);
+			path = DataConnecotr;
+			sourceTree = "<group>";
+		};
+		BADCCDF429F81AFE00091940 /* ApiConnector */ = {
+			isa = PBXGroup;
+			children = (
+				BADCCDFA29F81C3000091940 /* ApiConnectorDataModels */,
+				BADCCDF629F81BB000091940 /* ApiConnector.swift */,
+				BADCCDF829F81BDD00091940 /* ApiConnectorImp.swift */,
+			);
+			path = ApiConnector;
+			sourceTree = "<group>";
+		};
+		BADCCDF529F81B1300091940 /* PersistentStorage */ = {
+			isa = PBXGroup;
+			children = (
+				BADCCE1829FADCD300091940 /* PersistentConnector.swift */,
+				BADCCE1A29FADD7100091940 /* PersistentConnectorImp.swift */,
+			);
+			path = PersistentStorage;
+			sourceTree = "<group>";
+		};
+		BADCCDFA29F81C3000091940 /* ApiConnectorDataModels */ = {
+			isa = PBXGroup;
+			children = (
+				BADCCDFB29F81C5900091940 /* ApiConnectorDataModels.swift */,
+			);
+			path = ApiConnectorDataModels;
+			sourceTree = "<group>";
+		};
+		BADCCE0129F8393E00091940 /* DataConnectorDataModels */ = {
+			isa = PBXGroup;
+			children = (
+				BADCCE0229F8397700091940 /* DataConnectorDataModels.swift */,
+			);
+			path = DataConnectorDataModels;
+			sourceTree = "<group>";
+		};
+		BADCCE0429F840AD00091940 /* AppsSearch */ = {
+			isa = PBXGroup;
+			children = (
+				BADCCE0B29FA5E3F00091940 /* SearchResultRow */,
+				BADCCDEF29F80F8900091940 /* AppsSearchView.swift */,
+				BADCCE0529F840C800091940 /* AppsSearchViewViewModel.swift */,
+			);
+			path = AppsSearch;
+			sourceTree = "<group>";
+		};
+		BADCCE0B29FA5E3F00091940 /* SearchResultRow */ = {
+			isa = PBXGroup;
+			children = (
+				BADCCE0C29FA5E6800091940 /* SearchResultRowTopSection.swift */,
+				BADCCE0E29FA5EF200091940 /* SearchResultRowBottomSection.swift */,
+				BADCCE0929F9197400091940 /* SearchResultRowView.swift */,
+				BADCCE1029FA609F00091940 /* SearchResultRowViewViewModel.swift */,
+			);
+			path = SearchResultRow;
+			sourceTree = "<group>";
+		};
+		BADCCE1C29FBC77900091940 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				BADCCE2329FBCB6700091940 /* SupperViewModels */,
+				BADCCE1E29FBC99400091940 /* SubViews */,
+				BADCCE1D29FBC7B200091940 /* FavouriteApps */,
+				BADCCE0429F840AD00091940 /* AppsSearch */,
+				BADCCDEB29F80E6E00091940 /* TabBarView.swift */,
+				BADCCDED29F80EEB00091940 /* TabBarViewViewModel.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		BADCCE1D29FBC7B200091940 /* FavouriteApps */ = {
+			isa = PBXGroup;
+			children = (
+				BADCCDF129F80FC500091940 /* FavouriteAppsView.swift */,
+				BADCCE2129FBCB4200091940 /* FavouriteAppsViewViewModel.swift */,
+			);
+			path = FavouriteApps;
+			sourceTree = "<group>";
+		};
+		BADCCE1E29FBC99400091940 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				BADCCE1F29FBC9B200091940 /* AppsListView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		BADCCE2329FBCB6700091940 /* SupperViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BADCCE2429FBCB9800091940 /* AppInfoSupperViewModel.swift */,
+			);
+			path = SupperViewModels;
+			sourceTree = "<group>";
+		};
+		BADCCE2629FBD85500091940 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BADCCE1229FA76ED00091940 /* Extension.swift */,
+				BADCCE1429FA868600091940 /* ViewModifiers.swift */,
+				BADCCE0729F90BB700091940 /* AppInfo.json */,
+				BADCCE2729FBD8A300091940 /* SystemImages.swift */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +294,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BADCCDE529F80C6B00091940 /* Preview Assets.xcassets in Resources */,
+				BADCCE1729FABB8300091940 /* Colors.xcassets in Resources */,
 				BADCCDE229F80C6B00091940 /* Assets.xcassets in Resources */,
+				BADCCE0829F90BB700091940 /* AppInfo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +307,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BADCCDE029F80C6900091940 /* ContentView.swift in Sources */,
+				BADCCE2829FBD8A300091940 /* SystemImages.swift in Sources */,
+				BADCCDFC29F81C5900091940 /* ApiConnectorDataModels.swift in Sources */,
+				BADCCE1B29FADD7100091940 /* PersistentConnectorImp.swift in Sources */,
+				BADCCDF029F80F8900091940 /* AppsSearchView.swift in Sources */,
+				BADCCE1529FA868600091940 /* ViewModifiers.swift in Sources */,
+				BADCCE0329F8397700091940 /* DataConnectorDataModels.swift in Sources */,
+				BADCCE0F29FA5EF200091940 /* SearchResultRowBottomSection.swift in Sources */,
+				BADCCDF229F80FC500091940 /* FavouriteAppsView.swift in Sources */,
+				BADCCDF929F81BDD00091940 /* ApiConnectorImp.swift in Sources */,
+				BADCCDEC29F80E6E00091940 /* TabBarView.swift in Sources */,
+				BADCCE0629F840C800091940 /* AppsSearchViewViewModel.swift in Sources */,
+				BADCCE1329FA76ED00091940 /* Extension.swift in Sources */,
+				BADCCE0D29FA5E6800091940 /* SearchResultRowTopSection.swift in Sources */,
+				BADCCE2029FBC9B200091940 /* AppsListView.swift in Sources */,
+				BADCCE2529FBCB9800091940 /* AppInfoSupperViewModel.swift in Sources */,
+				BADCCE1929FADCD300091940 /* PersistentConnector.swift in Sources */,
+				BADCCE0A29F9197400091940 /* SearchResultRowView.swift in Sources */,
+				BADCCDF729F81BB000091940 /* ApiConnector.swift in Sources */,
 				BADCCDDE29F80C6900091940 /* SearchAppStoreApp.swift in Sources */,
+				BADCCDEE29F80EEB00091940 /* TabBarViewViewModel.swift in Sources */,
+				BADCCE2229FBCB4200091940 /* FavouriteAppsViewViewModel.swift in Sources */,
+				BADCCDFE29F8377E00091940 /* DataConnector.swift in Sources */,
+				BADCCE1129FA609F00091940 /* SearchResultRowViewViewModel.swift in Sources */,
+				BADCCE0029F8389000091940 /* DataConnectorImp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,12 +456,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SearchAppStore/Preview Content\"";
 				DEVELOPMENT_TEAM = XBJQCEWW5M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "App Finder";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -293,12 +488,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SearchAppStore/Preview Content\"";
 				DEVELOPMENT_TEAM = XBJQCEWW5M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "App Finder";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
