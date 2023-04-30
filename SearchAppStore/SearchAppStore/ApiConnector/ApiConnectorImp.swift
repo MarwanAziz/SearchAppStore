@@ -14,8 +14,7 @@ class ApiConnectorImp: ApiConnector {
     private let session = URLSession.shared
     var returnTestingData: Bool = false
 
-    private init() {
-    }
+    private init() {}
 
 
     private func getStoredAppInfo() -> Data? {
